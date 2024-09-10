@@ -1,21 +1,12 @@
-
 import "./App.css";
-
-import Title from"./Title.js";
-import Product from "./Product.js";
-
+import ProductTab from "./ProductTab.js";
 
 function App() {
-  return(
+  return (
     <>
-      <Product/>
-      <Product/>
-      <Product/>
-      
+      <ProductTab />
     </>
-  
   );
-
 }
 
 export default App;
